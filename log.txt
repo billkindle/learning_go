@@ -1,0 +1,10 @@
+1970-01-01 00:00:00 INFO: Linux service started successfully.
+1970-01-01 00:00:01 ERROR: Failed to stop Linux service.
+1970-01-01 00:00:02 WARNING: Linux service is consuming high CPU resources.
+1970-01-01 00:00:03 INFO: Linux service stopped gracefully.
+1970-01-01 00:00:04 ERROR: An unexpected error occurred while starting Linux service.
+1970-01-01 00:00:05 WARNING: Disk space running low for Linux service.
+1970-01-01 00:00:06 INFO: Linux service started successfully.
+1970-01-01 00:00:07 ERROR: Failed to stop Linux service.
+1970-01-01 00:00:08 WARNING: Linux service is consuming high CPU resources.
+1970-01-01 00:00:09 INFO: Linux service stopped gracefully.
