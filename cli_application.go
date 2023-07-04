@@ -1,4 +1,4 @@
-package cli_application
+package main
 
 import (
 	"bufio"
@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func main() {
+func cli_application() {
 	level := flag.String("level", "ERROR", "log level to filter for")
 	flag.Parse()
 

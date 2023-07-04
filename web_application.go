@@ -1,11 +1,11 @@
-package web_application
+package main
 
 import (
 	"fmt"
 	"net/http"
 )
 
-func main() {
+func web_application() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, "Web services are easy with Go!")
 	})
