@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func cli_application() {
+func main() {
 	level := flag.String("level", "ERROR", "log level to filter for")
 	flag.Parse()
 

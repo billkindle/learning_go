@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func web_application() {
+func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, "Web services are easy with Go!")
 	})
